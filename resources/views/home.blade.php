@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => config('app.name') . 'Home'])
 @section('content')
 <header class="text-center text-white bg-primary bg-opacity-75 p-5">
     <div class="container">

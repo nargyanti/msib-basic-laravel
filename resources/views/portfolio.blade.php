@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => config('app.name') . 'Portfolio'])
 @section('content')
 <div class="container my-3">
     <div class="card-group">

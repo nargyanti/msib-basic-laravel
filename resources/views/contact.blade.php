@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.app', ['title' => config('app.name') . 'Contact'])
 @section('content')
 <div class="container my-3">    
     <h2 class="text-center">Contact Me</h2>

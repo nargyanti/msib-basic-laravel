@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container my-3">    
-    <h2>Contact Me</h2>
+    <h2 class="text-center">Contact Me</h2>
     <div class="row justify-content-center">
         <div class="card col-6 p-3 m-2" style="width:25rem">
             <div class="d-flex align-items-center ps-4">

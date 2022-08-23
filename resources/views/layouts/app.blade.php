@@ -12,8 +12,8 @@
 <body id="page-top">
     @include('layouts.navigation')
     @yield('content')
-    <footer class="text-center text-white bg-dark py-2">
-        <p class="mt-2">Nabilah Argyanti © 2022</p>
+    <footer class="text-center text-white bg-primary bg-opacity-75 py-2">
+        <p class="mt-1">Nabilah Argyanti © 2022</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
